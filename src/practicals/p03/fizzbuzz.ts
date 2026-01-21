@@ -6,7 +6,7 @@ if(s % 3 == 0) {
 } else if (s % 5 == 0) {
     console.log("Buzz");
 
-} else if (s % 5 == 0 || s % 3 == 0) {
+} else if (s % 5 == 0 && s % 3 == 0) {
     console.log("FizzBuzz");
 }    
 }
