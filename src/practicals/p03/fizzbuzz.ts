@@ -1,12 +1,12 @@
 // Write your code below
-const i = process.argv[2];
-for (let i = 1; i <= size; i ++){
-if(i % 3 == 0) {
+const s = process.argv[2];
+for (let i = 1; i <= s; i ++) {
+if(s % 3 == 0) {
     console.log("Fizz");
-} else if (i % 5 == 0) {
+} else if (s % 5 == 0) {
     console.log("Buzz");
 
-} else if (i % 5 == 0 || i % 3 == 0) {
+} else if (s % 5 == 0 || s % 3 == 0) {
     console.log("FizzBuzz");
 }    
 }
