@@ -8,7 +8,7 @@ if(s % 3 == 0) {
 
 } else if (s % 5 == 0 && s % 3 == 0) {
     console.log("FizzBuzz");
-} else if ( input <= -1 && !isNaN(input)) {
+} else if ( input <= -1 || !isNaN(input)) {
     console.log("");
 }
 } 
