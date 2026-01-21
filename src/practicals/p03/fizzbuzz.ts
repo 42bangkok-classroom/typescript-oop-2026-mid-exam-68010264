@@ -1,5 +1,8 @@
 // Write your code below
 const s = process.argv[2];
+if ( s <= -1 || !isNaN(s)) {
+    console.log("");
+}
 for (let i = 1; i <= s; i ++) {
 if(s % 3 == 0) {
     console.log("Fizz");
@@ -8,7 +11,5 @@ if(s % 3 == 0) {
 
 } else if (s % 5 == 0 && s % 3 == 0) {
     console.log("FizzBuzz");
-} else if ( input <= -1 || !isNaN(input)) {
-    console.log("");
 }
-} 
+}
